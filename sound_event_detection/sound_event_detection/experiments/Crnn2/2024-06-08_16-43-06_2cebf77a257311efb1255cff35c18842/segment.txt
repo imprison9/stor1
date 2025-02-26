@@ -1,0 +1,55 @@
+Segment based metrics
+========================================
+  Evaluated length                  : 7769.08 sec
+  Evaluated files                   : 834 
+  Segment length                    : 1.00 sec
+
+  Overall metrics (micro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 66.24 %
+    Precision                       : 78.21 %
+    Recall                          : 57.45 %
+  Error rate
+    Error rate (ER)                 : 0.51 
+    Substitution rate               : 0.08 
+    Deletion rate                   : 0.35 
+    Insertion rate                  : 0.08 
+  Accuracy
+    Sensitivity                     : 57.45 %
+    Specificity                     : 98.15 %
+    Balanced accuracy               : 77.80 %
+    Accuracy                        : 93.93 %
+
+  Class-wise average metrics (macro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 58.63 %
+    Precision                       : 72.03 %
+    Recall                          : 51.53 %
+  Error rate
+    Error rate (ER)                 : 0.70 
+    Deletion rate                   : 0.48 
+    Insertion rate                  : 0.21 
+  Accuracy
+    Sensitivity                     : 51.53 %
+    Specificity                     : 98.09 %
+    Balanced accuracy               : 74.81 %
+    Accuracy                        : 93.93 %
+  
+
+  Class-wise metrics
+  ======================================
+    Event label  | Nref    Nsys  | F        Pre      Rec    | ER       Del      Ins    | Sens     Spec     Bacc     Acc     
+    ------------ | -----   ----- | ------   ------   ------ | ------   ------   ------ | ------   ------   ------   ------  
+    Dog          | 934     454   | 48.6%    74.2%    36.1%  | 0.76     0.64     0.13   | 36.1%    98.4%    67.2%    91.1%   
+    Electric_s.. | 307     237   | 71.3%    81.9%    63.2%  | 0.51     0.37     0.14   | 63.2%    99.4%    81.3%    98.1%   
+    Blender      | 311     284   | 48.4%    50.7%    46.3%  | 0.99     0.54     0.45   | 46.3%    98.2%    72.2%    96.2%   
+    Speech       | 2968    2313  | 81.0%    92.5%    72.1%  | 0.34     0.28     0.06   | 72.1%    96.6%    84.3%    87.5%   
+    Running_wa.. | 899     873   | 61.3%    62.2%    60.4%  | 0.76     0.40     0.37   | 60.4%    95.4%    77.9%    91.5%   
+    Cat          | 560     211   | 41.8%    76.3%    28.7%  | 0.80     0.71     0.09   | 28.7%    99.3%    64.0%    94.4%   
+    Vacuum_cle.. | 483     498   | 65.9%    64.9%    66.9%  | 0.69     0.33     0.36   | 66.9%    97.7%    82.3%    95.8%   
+    Dishes       | 502     195   | 38.5%    68.7%    26.7%  | 0.85     0.73     0.12   | 26.7%    99.2%    62.9%    94.7%   
+    Alarm_bell.. | 820     604   | 76.0%    89.6%    66.0%  | 0.42     0.34     0.08   | 66.0%    99.1%    82.6%    95.7%   
+    Frying       | 537     443   | 53.7%    59.4%    49.0%  | 0.85     0.51     0.34   | 49.0%    97.6%    73.3%    94.3%   
+

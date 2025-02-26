@@ -1,0 +1,10 @@
+0,Speech
+1,Dog
+2,Cat
+3,Alarm_bell_ringing
+4,Dishes
+5,Frying
+6,Blender
+7,Running_water
+8,Vacuum_cleaner
+9,Electric_shaver_toothbrush

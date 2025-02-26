@@ -1,0 +1,28 @@
+data:
+  audio_norm: data/feature/audio_features_data/global_mean_std.npz
+  cv:
+    audio_feature: data/feature/audio_features_data/val.hdf5
+    video_feature: data/feature/video_features_data/val.hdf5
+  dataloader_args:
+    batch_size: 128
+    num_workers: 1
+  test:
+    audio_feature: data/feature/audio_features_data/test.hdf5
+    video_feature: data/feature/video_features_data/test.hdf5
+  train:
+    audio_feature: data/feature/audio_features_data/train.hdf5
+    video_feature: data/feature/video_features_data/train.hdf5
+  video_norm: data/feature/video_features_data/global_mean_std.npz
+early_stop: 20
+epoch: 100
+lr_scheduler:
+  args:
+    factor: 0.1
+    patience: 3
+num_classes: 10
+optimizer:
+  args:
+    lr: 0.0001
+    weight_decay: 0.0001
+  type: Adam
+output_dir: experiments/mix
